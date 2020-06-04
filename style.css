@@ -1,0 +1,130 @@
+
+html, body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(195, 207, 245);
+}
+
+
+.container {
+  border: 1px solid black;
+  height: 100%;
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px;
+  background: url(background.jpg) center;
+  color: antiquewhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow:
+  5px 5px 5px rgb(39, 37, 37);
+
+}
+
+#header
+{
+  width: 30%;
+  height: 35%;
+  margin: 5px;
+}
+
+#headerdiv
+{
+  box-shadow: 0px 5px 5px rgb(39, 37, 37);
+  margin: 0px;
+}
+
+
+.row-1
+ {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#table div {
+  border-left: 1px solid black;
+height: 150px;
+}
+
+#ul
+{
+  text-align: left;
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+.row-2 {
+  display: flex;
+  
+  justify-content: space-around;
+  flex: 3;
+  height: 70px;
+  
+}
+
+
+.row-1 div {
+  padding: 20px;
+  text-align: center;
+  height: 450px;
+  flex: 1;
+}
+
+.row-1 img {
+  
+  width: 35%;
+  height: 25%;
+ 
+  box-shadow:
+  2px 5px 5px rgb(39, 37, 37);
+   
+  margin: 3px;
+  padding: 3px;
+  background: white;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.row-2 button {
+  height: 500;
+  width: auto;
+  font-weight: bold;
+  border: 1px solid black;
+  box-shadow: 2px 5px 5px rgb(39, 39, 39);
+}
+
+#wintext {
+
+  font-style: italic;
+  font-family: Apple Chancery, cursive	;
+  position: absolute;
+  top: 200px;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 0 5px 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+#playbutton {
+
+  position: absolute;
+  top: 300px;
+	background: transparent;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	font-weight:bold;
+  border:  transparent;
+
+  
+}
+#playbutton:hover {
+  font-style: italic;
+  font-size: 28px;
+  color: #fff;
+  text-shadow: 0 5px 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #c2e1ff, 0 0 35px #0073e6;
+}

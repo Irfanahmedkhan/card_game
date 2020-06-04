@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="headerdiv">
+      <img src="/heading.png" id="header" alt="">
+    </div>
+
+    <div class="row-1" id="row-1">
+      <div id="your-box">
+        <h4> 1<sup>st</sup> Player : <span id="your-result"> 0 </span> </h4>
+      </div>
+
+      <div id="dealer-box">
+        <h4> 2<sup>nd</sup>  Player :  <span id="dealer-result"> 0 </span> </h4>
+      </div>
+
+      <div id="table">
+        <div>
+        <table style="width: 100%;">
+          <tr>
+            <th>Wins</th>
+            <th>Lost</th>
+            <th>Draw</th>
+          </tr>
+          <tr id="tr">
+            <th><span id="win"></span> </th>
+            <th><span id="lost"></span></th>
+            <th><span id="draw"></span> </th>
+          </tr>
+        </table>
+        </div>
+        <div>
+        <ul id="ul">
+
+          <li>Player 1 Win - If Player 1 score is morethan Player 2 score and Player 2 score is morethan 21</li>
+          <li>Player 2 Win - If Player 1 score is lessthan Player 2 score and Player 2 score is lessthan 21</li>
+          <li>Draw - If your</li>
+</ul>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row-2">
+
+      <div>
+        <button class="btn btn-primary mr-2" id="hit-button">Player 1</button>
+        <button class="btn btn-warning mr-2" id="stand-button">Player 2</button>
+        <button class="btn btn-danger" id="deal-button">Draw</button> </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
