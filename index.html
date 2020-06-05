@@ -29,28 +29,31 @@
 
       <div id="table">
         <div>
-        <table style="width: 100%;">
-          <tr>
-            <th>Wins</th>
-            <th>Lost</th>
-            <th>Draw</th>
-          </tr>
-          <tr id="tr">
-            <th><span id="win"></span> </th>
-            <th><span id="lost"></span></th>
-            <th><span id="draw"></span> </th>
-          </tr>
-        </table>
+          <table style="width: 100%;">
+            <tr>
+              <th>Wins</th>
+              <th>Lost</th>
+              <th>Draw</th>
+            </tr>
+            <tr id="tr">
+              <th><span id="win"></span> </th>
+              <th><span id="lost"></span></th>
+              <th><span id="draw"></span> </th>
+            </tr>
+          </table>
         </div>
         <div>
-        <ul id="ul">
+          <ul id="ul">
+            <td> <big> <strong> Winning Condition </strong> </big>
+              <li> <big> <strong> Player Win :</strong> </big>  If Player's score is more than 2<sup>nd</sup> Player score and
+                both are not BUSTED (Less than 21)</li>
+              <li><big> <strong> Player Lose : </strong> </big> - If Player's is BUSTED (score more than 21) or score is less than 2<sup>nd</sup> Player (Less than 21)</li>
+              <li><big> <strong> Draw : </strong> </big> If both Player's Score is Equal or both are BUSTED</li>
 
-          <li>Player 1 Win - If Player 1 score is morethan Player 2 score and Player 2 score is morethan 21</li>
-          <li>Player 2 Win - If Player 1 score is lessthan Player 2 score and Player 2 score is lessthan 21</li>
-          <li>Draw - If your</li>
-</ul>
-          </div>
+            </td>
+          </ul>
         </div>
+      </div>
 
     </div>
 
@@ -59,7 +62,7 @@
       <div>
         <button class="btn btn-primary mr-2" id="hit-button">Player 1</button>
         <button class="btn btn-warning mr-2" id="stand-button">Player 2</button>
-        <button class="btn btn-danger" id="deal-button">Draw</button> </button>
+        <button class="btn btn-danger" id="deal-button">Deal _ :)</button> </button>
 
       </div>
 
